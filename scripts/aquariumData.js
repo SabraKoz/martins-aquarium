@@ -6,7 +6,7 @@ export const database = {
             length: 3,
             location: "Great Barrier Reef",
             diet: "Omnivore",
-            image: "https://static.wikia.nocookie.net/findingdory/images/6/60/Nemo_Render.png/revision/latest/scale-to-width-down/1200?cb=20160523225656"
+            image: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg"
         },
         {
             name: "Dory",
@@ -22,7 +22,7 @@ export const database = {
             length: 6,
             location: "Great Barrier Reef",
             diet: "Omnivore",
-            image: "https://static.wikia.nocookie.net/disabledcharacters/images/6/63/Gill_%28Finding_Nemo%29.webp/revision/latest/thumbnail/width/360/height/360?cb=20240116000713"
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Zanclus_cornutus_in_Kona.jpg/640px-Zanclus_cornutus_in_Kona.jpg"
         },
         {
             name: "Flo",
@@ -30,7 +30,7 @@ export const database = {
             length: 4,
             location: "Great Barrier Reef",
             diet: "Omnivore",
-            image: "https://static.wikia.nocookie.net/pixar/images/7/79/Deb1.png/revision/latest?cb=20111208042959"
+            image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Humbug_dascyllus_%28Dascyllus_aruanus%29_%2848652156722%29.jpg"
         },
         {
             name: "Peach",
@@ -38,7 +38,7 @@ export const database = {
             length: 5,
             location: "Caribbean Sea",
             diet: "Omnivore",
-            image: "https://static.wikia.nocookie.net/pixar/images/7/7e/Peach-0.png/revision/latest?cb=20200426041905"
+            image: "https://upload.wikimedia.org/wikipedia/commons/d/dc/Fromia_monilis_%28Seastar%29.jpg"
         },
         {
             name: "Gurgle",
@@ -46,7 +46,7 @@ export const database = {
             length: 2,
             location: "Caribbean Sea",
             diet: "Omnivore",
-            image: "https://static.wikia.nocookie.net/pixar/images/d/d2/Gurgle.png/revision/latest?cb=20111207145352"
+            image: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Gramma_loreto%2C_Adult_%28Royal_Gramma%29.jpg"
         },
         {
             name: "Bubbles",
@@ -54,7 +54,7 @@ export const database = {
             length: 6,
             location: "Great Barrier Reef",
             diet: "Omnivore",
-            image: "https://static.wikia.nocookie.net/pixar/images/0/0c/Bubbles.png/revision/latest?cb=20110528121135"
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3gnmAxKO1vVpCOKGs4GeACYzE6_xrBwthdQ&s"
         },
         {
             name: "Bloat",
@@ -62,7 +62,7 @@ export const database = {
             length: 3,
             location: "Caribbean Sea",
             diet: "Omnivore",
-            image: "https://static.wikia.nocookie.net/pixar/images/5/5b/Bloat_finding_nemo.png/revision/latest?cb=20210306152213"
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Puffer_Fish_DSC01257.JPG/351px-Puffer_Fish_DSC01257.JPG"
         }
     ],
     tips: [
