@@ -55,6 +55,14 @@ export const database = {
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://static.wikia.nocookie.net/pixar/images/0/0c/Bubbles.png/revision/latest?cb=20110528121135"
+        },
+        {
+            name: "Bloat",
+            species: "Puffer Fish",
+            length: 3,
+            location: "Caribbean Sea",
+            diet: "Omnivore",
+            image: "https://static.wikia.nocookie.net/pixar/images/5/5b/Bloat_finding_nemo.png/revision/latest?cb=20210306152213"
         }
     ],
     tips: [

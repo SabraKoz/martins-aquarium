@@ -1,7 +1,7 @@
 import { database } from './aquariumData.js';
 
 export const generateLocationList = () => {
-    let locationHTML = '';
+    let locationHTML = '<header id="locations-title">Locations</header>';
 
     for (const location of database.locations) {
         locationHTML += `

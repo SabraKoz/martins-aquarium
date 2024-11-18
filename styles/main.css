@@ -1,0 +1,30 @@
+.fish__name {
+    text-align: center;
+}
+
+.fish__type {
+    text-align: center;
+}
+
+.fish__image {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.fishHTML {
+    justify-items: center;
+    padding: 20px;
+    box-shadow: 3px 3px #00BCD4;
+}
+
+.tipHTML {
+    justify-items: center;
+    padding: 20px;
+    border-bottom: 3px solid #15d715;
+}
+
+.locations {
+    justify-items: center;
+    padding: 20px;
+    border-right: 3px solid #9C27B0;
+}

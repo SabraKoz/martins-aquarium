@@ -1,0 +1,64 @@
+header {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    background: pink;
+    border: 15px solid #f28194;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#fish-title {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-weight: bold;
+    background: #00BCD4;
+    border: 4px solid black;
+}
+
+#fishList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: left;
+    gap: 20px;
+    padding: 20px;
+    background: lightblue;
+    border-left: 8px solid #00BCD4;
+}
+
+#tips-title {
+    text-align: center;
+    font-weight: bold;
+    background: #15d715;
+    border: 4px solid black;
+}
+
+#tipList {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #b6f4b6;
+    border-left: 8px solid #15d715;
+}
+
+#locations-title {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-weight: bold;
+    background: #9C27B0;
+    border: 4px solid black;
+}
+
+#locationList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background: #eda6ed;
+    border-left: 8px solid #9C27B0;
+}
