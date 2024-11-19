@@ -1,44 +1,30 @@
 import { database } from './aquariumData.js';
 
-export const mostHolyFish = () => {
-    let holyFish = [];
+export const filterFish = () => {
+    let newFishList = {
+            holyFish: [],
+            soldierFish: [],
+            regularFish: []
+        };
 
     for (const fish of database.fish) {
-        if (fish.length % 3 === 0) {
-            holyFish += fish;
-        }
-    }
+            if (fish.length % 3 === 0) {
+                newFishList.holyFish.push(fish);
+            }
 
-    return holyFish
+            if (fish.length % 5 === 0) {
+                newFishList.soldierFish.push(fish);
+            }
+
+            if (fish.length % 3 !== 0 && fish.length % 5 !== 0) {
+                newFishList.regularFish.push(fish);
+            }
+        }
+        return newFishList
 };
 
-export const soldierFish = () => {
-     let soldier = [];
+//  const newFilteredFishList = filterFish();
+//  console.log(newFilteredFishList.holyFish);
+//  console.log(newFilteredFishList.soldierFish);
+//  console.log(newFilteredFishList.regularFish);
 
-     for (const fish of database.fish) {
-        if (fish.length % 5 === 0) {
-            soldier += fish;
-        }
-     }
-     return soldier
-};
-
-export const regularFish = () => {
-    let regular = [];
-
-    for (const fish of database.fish) {
-        if (fish.length % 3 !== 0 && fish.length % 5 !== 0) {
-            regular += fish;
-        }
-    }
-    return regular
-};
-
-// const holyFish = mostHolyFish();
-// console.log(holyFish)
-
-// const soldier = soldierFish();
-// console.log(soldier)
-
-// const regular = regularFish();
-// console.log(regular)
