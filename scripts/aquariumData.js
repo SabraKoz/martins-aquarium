@@ -22,7 +22,7 @@ export const database = {
             length: 185,
             location: "Great Barrier Reef",
             diet: "Carnivore",
-            image: "https://example.com/images/bruce.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/5/56/White_shark.jpg"
           },
           {
             name: "Gil",
@@ -46,7 +46,7 @@ export const database = {
             length: 303,
             location: "Caribbean Sea",
             diet: "Carnivore",
-            image: "https://example.com/images/marvin.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Atlantic_blue_marlin.jpg/1200px-Atlantic_blue_marlin.jpg"
           },
           {
             name: "Splash",
@@ -54,7 +54,7 @@ export const database = {
             length: 25,
             location: "Caribbean Sea",
             diet: "Omnivore",
-            image: "https://example.com/images/splash.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Salmo_trutta.jpg/1200px-Salmo_trutta.jpg"
           },
           {
             name: "Shadow",
@@ -62,7 +62,7 @@ export const database = {
             length: 9,
             location: "Great Barrier Reef",
             diet: "Carnivore",
-            image: "https://example.com/images/shadow.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/4/43/Black_Ghost_Knifefish_400.jpg"
           },
           {
             name: "Luna",
@@ -70,7 +70,7 @@ export const database = {
             length: 155,
             location: "Caribbean Sea",
             diet: "Omnivore",
-            image: "https://example.com/images/luna.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Sunfish2.jpg/1200px-Sunfish2.jpg"
           },
           {
             name: "Flash",
@@ -78,7 +78,7 @@ export const database = {
             length: 245,
             location: "Caribbean Sea",
             diet: "Carnivore",
-            image: "https://example.com/images/flash.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/6/65/Naturalis_Biodiversity_Center_-_RMNH.ART.194_-_Istiophorus_platypterus_%28Shaw_and_Nodder%29_-_Kawahara_Keiga_-_1823_-_1829_-_Siebold_Collection_-_new_version.jpeg"
           },
           {
             name: "Pearl",
@@ -86,7 +86,7 @@ export const database = {
             length: 12,
             location: "Caribbean Sea",
             diet: "Omnivore",
-            image: "https://example.com/images/pearl.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Queen_Angelfish.jpg"
           },
           {
             name: "Coral",
@@ -94,7 +94,7 @@ export const database = {
             length: 33,
             location: "Caribbean Sea",
             diet: "Herbivore",
-            image: "https://example.com/images/coral.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Stoplight-parrotfish.jpg/270px-Stoplight-parrotfish.jpg"
           },
           {
             name: "Finn",
@@ -102,7 +102,7 @@ export const database = {
             length: 80,
             location: "Caribbean Sea",
             diet: "Carnivore",
-            image: "https://example.com/images/finn.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/1/18/Coryphaena_equiselis.jpg"
           },
           {
             name: "Aurora",
@@ -110,7 +110,7 @@ export const database = {
             length: 21,
             location: "Great Barrier Reef",
             diet: "Carnivore",
-            image: "https://example.com/images/aurora.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Electric-eel.jpg/1200px-Electric-eel.jpg"
           },
           {
             name: "Wave",
@@ -118,7 +118,7 @@ export const database = {
             length: 35,
             location: "Caribbean Sea",
             diet: "Omnivore",
-            image: "https://example.com/images/wave.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Pink-wing_flying_fish.jpg/220px-Pink-wing_flying_fish.jpg"
           },
         {
             name: "Flo",

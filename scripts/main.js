@@ -19,4 +19,4 @@ const locationHTML = generateLocationList();
 renderLocationsToDOM(locationHTML);
 
 
-domReference.innerHTML = `${holyFish}${soldier}${regular}`
+renderFishToDOM.innerHTML = `${holyFish}${soldier}${regular}`
