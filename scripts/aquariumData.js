@@ -1,29 +1,125 @@
 export const database = {
     fish: [
         {
+            name: "Dory",
+            species: "Blue Tang",
+            length: 7,
+            location: "Great Barrier Reef",
+            diet: "Omnivore",
+            image: "https://upload.wikimedia.org/wikipedia/en/a/ae/Dory_%28Finding_Nemo%29.png"
+          },
+          {
             name: "Nemo",
             species: "Clownfish",
             length: 3,
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg"
-        },
-        {
-            name: "Dory",
-            species: "Blue Tang",
-            length: 5,
+          },
+          {
+            name: "Bruce",
+            species: "Great White Shark",
+            length: 185,
             location: "Great Barrier Reef",
-            diet: "Omnivore",
-            image: "https://upload.wikimedia.org/wikipedia/en/a/ae/Dory_%28Finding_Nemo%29.png"
-        },
-        {
-            name: "Gill",
+            diet: "Carnivore",
+            image: "https://example.com/images/bruce.jpg"
+          },
+          {
+            name: "Gil",
             species: "Moorish Idol",
-            length: 6,
+            length: 20,
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Zanclus_cornutus_in_Kona.jpg/640px-Zanclus_cornutus_in_Kona.jpg"
-        },
+          },
+          {
+            name: "Bubbles",
+            species: "Yellow Tang",
+            length: 6,
+            location: "Great Barrier Reef",
+            diet: "Herbivore",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3gnmAxKO1vVpCOKGs4GeACYzE6_xrBwthdQ&s"
+          },
+          {
+            name: "Marvin",
+            species: "Blue Marlin",
+            length: 303,
+            location: "Caribbean Sea",
+            diet: "Carnivore",
+            image: "https://example.com/images/marvin.jpg"
+          },
+          {
+            name: "Splash",
+            species: "Rainbow Trout",
+            length: 25,
+            location: "Caribbean Sea",
+            diet: "Omnivore",
+            image: "https://example.com/images/splash.jpg"
+          },
+          {
+            name: "Shadow",
+            species: "Black Ghost Knifefish",
+            length: 9,
+            location: "Great Barrier Reef",
+            diet: "Carnivore",
+            image: "https://example.com/images/shadow.jpg"
+          },
+          {
+            name: "Luna",
+            species: "Ocean Sunfish",
+            length: 155,
+            location: "Caribbean Sea",
+            diet: "Omnivore",
+            image: "https://example.com/images/luna.jpg"
+          },
+          {
+            name: "Flash",
+            species: "Sailfish",
+            length: 245,
+            location: "Caribbean Sea",
+            diet: "Carnivore",
+            image: "https://example.com/images/flash.jpg"
+          },
+          {
+            name: "Pearl",
+            species: "Angelfish",
+            length: 12,
+            location: "Caribbean Sea",
+            diet: "Omnivore",
+            image: "https://example.com/images/pearl.jpg"
+          },
+          {
+            name: "Coral",
+            species: "Parrotfish",
+            length: 33,
+            location: "Caribbean Sea",
+            diet: "Herbivore",
+            image: "https://example.com/images/coral.jpg"
+          },
+          {
+            name: "Finn",
+            species: "Dolphinfish",
+            length: 80,
+            location: "Caribbean Sea",
+            diet: "Carnivore",
+            image: "https://example.com/images/finn.jpg"
+          },
+          {
+            name: "Aurora",
+            species: "Electric Eel",
+            length: 21,
+            location: "Great Barrier Reef",
+            diet: "Carnivore",
+            image: "https://example.com/images/aurora.jpg"
+          },
+          {
+            name: "Wave",
+            species: "Flying Fish",
+            length: 35,
+            location: "Caribbean Sea",
+            diet: "Omnivore",
+            image: "https://example.com/images/wave.jpg"
+          },
         {
             name: "Flo",
             species: "Humbug Fish",
@@ -33,28 +129,12 @@ export const database = {
             image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Humbug_dascyllus_%28Dascyllus_aruanus%29_%2848652156722%29.jpg"
         },
         {
-            name: "Peach",
-            species: "Starfish",
-            length: 5,
-            location: "Caribbean Sea",
-            diet: "Omnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/d/dc/Fromia_monilis_%28Seastar%29.jpg"
-        },
-        {
             name: "Gurgle",
             species: "Royal Gramma Fish",
             length: 2,
             location: "Caribbean Sea",
             diet: "Omnivore",
             image: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Gramma_loreto%2C_Adult_%28Royal_Gramma%29.jpg"
-        },
-        {
-            name: "Bubbles",
-            species: "Yellow Tang",
-            length: 6,
-            location: "Great Barrier Reef",
-            diet: "Omnivore",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3gnmAxKO1vVpCOKGs4GeACYzE6_xrBwthdQ&s"
         },
         {
             name: "Bloat",

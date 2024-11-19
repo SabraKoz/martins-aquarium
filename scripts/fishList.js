@@ -15,7 +15,6 @@ export const generateFishList = () => {
             `;
     }
     return fishHTML
-    // Generate an HTML representation of each fish
 };
 
 export const renderFishToDOM = (fishHTML) => {
